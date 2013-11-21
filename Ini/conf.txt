@@ -1,0 +1,6 @@
+[dir]
+node_path=Z:\node0
+right_path=Z:\node0\right
+error_path=Z:\node0\error
+right_log=Z:\node0\right.txt
+error_log=Z:\node0\error.txt

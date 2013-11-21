@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MyWnd">
+      <UniqueIdentifier>{650e01f8-6c04-4d99-b6bf-0b938a6714ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColumnStyle.cpp">
+      <Filter>MyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="my_wnd.cpp">
+      <Filter>MyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Word.cpp">
+      <Filter>MyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="WordListController.cpp">
+      <Filter>MyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCWnd.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColumnStyle.h">
+      <Filter>MyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="my_wnd.h">
+      <Filter>MyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Word.h">
+      <Filter>MyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="WordListController.h">
+      <Filter>MyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCWnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MFCWnd.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCWnd.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
