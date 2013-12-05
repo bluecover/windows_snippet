@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaitableTimer", "WaitableTi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wow6432Node", "Wow6432Node\Wow6432Node.vcproj", "{210DD151-83AF-4E9A-BE13-D8B5E9F4085B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WriteRegistry", "WriteRegistry\WriteRegistry.vcproj", "{31DB6F4D-9706-44B7-9201-7B938A9CB9B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -163,6 +165,10 @@ Global
 		{210DD151-83AF-4E9A-BE13-D8B5E9F4085B}.Debug|Win32.Build.0 = Debug|Win32
 		{210DD151-83AF-4E9A-BE13-D8B5E9F4085B}.Release|Win32.ActiveCfg = Release|Win32
 		{210DD151-83AF-4E9A-BE13-D8B5E9F4085B}.Release|Win32.Build.0 = Release|Win32
+		{31DB6F4D-9706-44B7-9201-7B938A9CB9B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31DB6F4D-9706-44B7-9201-7B938A9CB9B4}.Debug|Win32.Build.0 = Debug|Win32
+		{31DB6F4D-9706-44B7-9201-7B938A9CB9B4}.Release|Win32.ActiveCfg = Release|Win32
+		{31DB6F4D-9706-44B7-9201-7B938A9CB9B4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
